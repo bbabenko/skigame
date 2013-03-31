@@ -132,27 +132,6 @@ class Game extends atom.Game
     )
     atom.canvas.add(@points_text)
 
-
-    #### LEVELS
-    # @cur_level = 0
-    # @level_times = [10, 20, 30, 40]
-    # @levels =
-    #   0:
-    #     speed: 1
-    #     obs_freq: 1
-    #   1:
-    #     speed: 2
-    #     obs_freq: 2
-    #   2:
-    #     speed: 3
-    #     obs_freq: 3
-    #   3:
-    #     speed: 4
-    #     obs_freq: 4
-    #   4:
-    #     speed: 5
-    #     obs_req: 5
-
     #### GAME PARAMS
     @dx = 0.0
     @obstacles = []
@@ -160,9 +139,14 @@ class Game extends atom.Game
     @time_to_next_obs = 0
     @life = 1.0
     @points = 0
+    @time = 0
     @xspeed = 0
+    @speedup = false
 
   update: (dt) ->
+    ####
+    # x speed and location
+
     # if atom.input.down 'left'
     #   @dx = Math.max -@RW2, @dx - dt * @XSPEED
     # else if atom.input.down 'right'
@@ -178,14 +162,27 @@ class Game extends atom.Game
       else
         @xspeed = Math.min(0, @xspeed + @XFRICTION)
 
-
     @dx = Math.max(-@RW2 + @SKI_WIDTH/2, Math.min(@RW2 - @SKI_WIDTH/2, @dx + dt*@xspeed))
     # console.log "dx #{@dx}, rw #{@RW2}, #{Math.abs(@dx - @RW2)}"
-    if (@dx > 0 and Math.abs(@dx - @RW2) < .0001) or (@dx < 0 and Math.abs(-@dx - @RW2) < 0.0001)
+    if (@dx > 0 and Math.abs(@dx - @RW2 + @SKI_WIDTH/2) < 0.0001) or 
+        (@dx < 0 and Math.abs(-@dx - @RW2 + @SKI_WIDTH/2) < 0.0001)
       # console.log "slowing down"
       @xspeed = 0
     # console.log "speed #{@xspeed}"
 
+    ####
+    # points and speedup
+    if atom.input.down 'up'
+      @speedup = true
+      @points += (2*dt)
+      console.log "speedup"
+    else
+      @speedup = false
+      @points += dt
+    @time += dt
+
+    ####
+    # obstacles
     to_remove = []
     for o in @obstacles
       # oldest last, so they end up in front
@@ -201,14 +198,7 @@ class Game extends atom.Game
     @life = Math.min 1.0, @life + @LIFE_INCREASE_SPEED
     if @life < 0
       @game_over()
-
     @obstacles = @obstacles.filter (o) -> not (o in to_remove)
-
-    @points += dt
-
-    # for lt, i in @level_times
-    #   if @points > lt and (i+1) of @levels
-    #     @cur_level = i+1
 
     # add new obstacles
     if @time_to_next_obs < @time_since_last_obs
@@ -218,6 +208,7 @@ class Game extends atom.Game
       @time_to_next_obs = Math.random()/@get_speed()
     else
       @time_since_last_obs += dt
+
 
   draw: ->
     # runway
@@ -296,7 +287,12 @@ class Game extends atom.Game
         _adjust_backdrop(@backdrop)
 
   get_speed: ->
-    Math.max 1, @points/20
+    s = Math.max 1, @time/25
+    if @speedup
+      # Math.max(s, 10)
+      s*3
+    else
+      s
 
   refresh_view: ->
     @_draw_backdrop()

@@ -176,7 +176,9 @@
       this.time_to_next_obs = 0;
       this.life = 1.0;
       this.points = 0;
+      this.time = 0;
       this.xspeed = 0;
+      this.speedup = false;
     }
 
     Game.prototype.update = function(dt) {
@@ -193,9 +195,18 @@
         }
       }
       this.dx = Math.max(-this.RW2 + this.SKI_WIDTH / 2, Math.min(this.RW2 - this.SKI_WIDTH / 2, this.dx + dt * this.xspeed));
-      if ((this.dx > 0 && Math.abs(this.dx - this.RW2) < .0001) || (this.dx < 0 && Math.abs(-this.dx - this.RW2) < 0.0001)) {
+      if ((this.dx > 0 && Math.abs(this.dx - this.RW2 + this.SKI_WIDTH / 2) < 0.0001) || (this.dx < 0 && Math.abs(-this.dx - this.RW2 + this.SKI_WIDTH / 2) < 0.0001)) {
         this.xspeed = 0;
       }
+      if (atom.input.down('up')) {
+        this.speedup = true;
+        this.points += 2 * dt;
+        console.log("speedup");
+      } else {
+        this.speedup = false;
+        this.points += dt;
+      }
+      this.time += dt;
       to_remove = [];
       _ref = this.obstacles;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
@@ -217,7 +228,6 @@
       this.obstacles = this.obstacles.filter(function(o) {
         return !(__indexOf.call(to_remove, o) >= 0);
       });
-      this.points += dt;
       if (this.time_to_next_obs < this.time_since_last_obs) {
         type = this.OBS_BINS[Math.floor(Math.random() * this.OBS_BINS.length)];
         this.obstacles.unshift(new Obstacle(this, this.CONE_HEIGHT, this._random_x_loc(this.CONE_WIDTH), type));
@@ -336,7 +346,13 @@
     };
 
     Game.prototype.get_speed = function() {
-      return Math.max(1, this.points / 20);
+      var s;
+      s = Math.max(1, this.time / 25);
+      if (this.speedup) {
+        return s * 3;
+      } else {
+        return s;
+      }
     };
 
     Game.prototype.refresh_view = function() {
