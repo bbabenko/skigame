@@ -1,0 +1,392 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is_",
+				"is_off_screen"
+			],
+			[
+				"x",
+				"xspeed"
+			],
+			[
+				"remove",
+				"remove_from_canvas"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"OBS_",
+				"OBS_WEIGHTS"
+			],
+			[
+				"is",
+				"is_colliding"
+			],
+			[
+				"time_",
+				"time_since_last_obs"
+			],
+			[
+				"_calc",
+				"_calc_y"
+			],
+			[
+				"ball",
+				"ballPrms"
+			],
+			[
+				"PADDL",
+				"PADDLE_HEIGHT"
+			],
+			[
+				"PADD_",
+				"PADDLE_WIDTH"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "game.html",
+			"settings":
+			{
+				"buffer_size": 2481,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ski.coffee",
+			"settings":
+			{
+				"buffer_size": 9520,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "atom.coffee",
+			"settings":
+			{
+				"buffer_size": 5289,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/F/Dropbox/fun/games/ski/ski.coffee",
+		"/F/Dropbox/fun/games/pong/atom.coffee",
+		"/F/Dropbox/fun/games/pong/pong.coffee",
+		"/F/Dropbox/fun/games/pong/game.html",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/CoffeeScript/CoffeeScript.sublime-build"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"preload",
+			"hide()",
+			"message",
+			"start_game",
+			"selec",
+			"highli",
+			"high",
+			"message",
+			"tab",
+			"end",
+			"tab",
+			"console.",
+			"left",
+			"screen",
+			"level_t",
+			"resize",
+			"levels",
+			"cur_",
+			"    # @cur_level = 0\n    # @level_times = [10, 20, 30, 40]\n    # @levels =\n    #   0:\n    #     speed: 1\n    #     obs_freq: 1\n    #   1:\n    #     speed: 2\n    #     obs_freq: 2\n    #   2:\n    #     speed: 3\n    #     obs_freq: 3\n    #   3:\n    #     speed: 4\n    #     obs_freq: 4\n    #   4:\n    #     speed: 5\n    #     obs_req: 5",
+			"OBS_FREQ",
+			"@w",
+			"100",
+			"400",
+			"200",
+			"dx",
+			"console.log",
+			"console.lo",
+			"CONE_SPEED",
+			"dt",
+			"@_calc_y",
+			"@_calc_x",
+			" @",
+			"fold",
+			"x",
+			"ballLoc",
+			"02",
+			"height",
+			"atom.canvas",
+			"alt+shift",
+			"col",
+			"colum",
+			"layout"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "game.html",
+					"settings":
+					{
+						"buffer_size": 2481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1875,
+								1875
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 948.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ski.coffee",
+					"settings":
+					{
+						"buffer_size": 9520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1421,
+								1421
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 772.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "atom.coffee",
+					"settings":
+					{
+						"buffer_size": 5289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4814,
+								4814
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3002.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ski.coffee",
+					"settings":
+					{
+						"buffer_size": 9520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1160,
+								1160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.608776266996,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ski",
+				"ski.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
