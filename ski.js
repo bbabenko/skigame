@@ -385,6 +385,7 @@
       var o, _i, _len, _ref;
       this.life = 1;
       this.points = 0;
+      this.time = 0;
       _ref = this.obstacles;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         o = _ref[_i];

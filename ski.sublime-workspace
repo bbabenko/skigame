@@ -59,15 +59,15 @@
 			"file": "game.html",
 			"settings":
 			{
-				"buffer_size": 2481,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "ski.coffee",
 			"settings":
 			{
-				"buffer_size": 9520,
+				"buffer_size": 9454,
 				"line_ending": "Windows"
 			}
 		},
@@ -134,6 +134,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"up",
+			"points",
 			"preload",
 			"hide()",
 			"message",
@@ -201,15 +203,15 @@
 					"file": "game.html",
 					"settings":
 					{
-						"buffer_size": 2481,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1875,
-								1875
+								0,
+								0
 							]
 						],
 						"settings":
@@ -228,15 +230,15 @@
 					"file": "ski.coffee",
 					"settings":
 					{
-						"buffer_size": 9520,
+						"buffer_size": 9454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1421,
-								1421
+								4868,
+								4868
 							]
 						],
 						"settings":
@@ -246,7 +248,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 772.0,
+						"translation.y": 2984.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -290,7 +292,7 @@
 					"file": "ski.coffee",
 					"settings":
 					{
-						"buffer_size": 9520,
+						"buffer_size": 9454,
 						"regions":
 						{
 						},

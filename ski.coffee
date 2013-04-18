@@ -314,6 +314,7 @@ class Game extends atom.Game
   reset: ->
     @life = 1
     @points = 0
+    @time = 0
     for o in @obstacles
       o.remove_from_canvas()
     @obstacles = []
