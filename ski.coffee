@@ -195,7 +195,7 @@ class Game extends atom.Game
           @life -= @COLLISION_PRICE
           atom.playSound('ouch')
 
-    @life = Math.min 1.0, @life + @LIFE_INCREASE_SPEED
+    @life = Math.min 1.0, @life + @LIFE_INCREASE_SPEED*dt
     if @life < 0
       @game_over()
     @obstacles = @obstacles.filter (o) -> not (o in to_remove)

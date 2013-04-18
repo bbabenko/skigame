@@ -221,7 +221,7 @@
           }
         }
       }
-      this.life = Math.min(1.0, this.life + this.LIFE_INCREASE_SPEED);
+      this.life = Math.min(1.0, this.life + this.LIFE_INCREASE_SPEED * dt);
       if (this.life < 0) {
         this.game_over();
       }
