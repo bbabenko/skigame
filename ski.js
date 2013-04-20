@@ -102,7 +102,7 @@
       this.OBS_FREQ = 5;
       this.CONE_HEIGHT = .8;
       this.CONE_WIDTH = .6;
-      this.LIFE_INCREASE_SPEED = .001;
+      this.LIFE_INCREASE_SPEED = .05;
       this.COLLISION_PRICE = 0.25;
       this.OBS_IMGS = ['kn', 'z', 'cone', 'sasha', 'tree'];
       this.OBS_WEIGHTS = [1, 1, 10, 1, 5];

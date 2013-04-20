@@ -72,7 +72,7 @@ class Game extends atom.Game
     @CONE_WIDTH = .6
     # @SPEED = 3
 
-    @LIFE_INCREASE_SPEED = .001
+    @LIFE_INCREASE_SPEED = .05
     @COLLISION_PRICE = 0.25
 
     @OBS_IMGS = ['kn', 'z', 'cone', 'sasha', 'tree']
