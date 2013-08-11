@@ -55,22 +55,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "ski.coffee",
-			"settings":
-			{
-				"buffer_size": 9470,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "atom.coffee",
-			"settings":
-			{
-				"buffer_size": 5289,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -100,6 +84,14 @@
 	},
 	"file_history":
 	[
+		"/F/Dropbox/fun/games/skigame/ski.coffee",
+		"/F/Dropbox/fun/games/skigame/atom.coffee",
+		"/F/Dropbox/fun/games/skigame/LICENSE",
+		"/F/Dropbox/fun/games/skigame/fabric-min.js",
+		"/F/Dropbox/fun/games/skigame/coffee-script.js",
+		"/C/Users/boris/Documents/Rita/Web Dev Class/L2_test.html",
+		"/C/Users/boris/Documents/Rita/Web Dev Class/App_Engine/udaciosity/main.py",
+		"/C/Users/boris/Documents/Rita/Web Dev Class/L2_test",
 		"/F/Dropbox/fun/games/skigame/game.html",
 		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
@@ -188,99 +180,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "ski.coffee",
-					"settings":
-					{
-						"buffer_size": 9470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1552,
-								1552
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 684.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "atom.coffee",
-					"settings":
-					{
-						"buffer_size": 5289,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4814,
-								4814
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3002.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 0,
-					"file": "ski.coffee",
-					"settings":
-					{
-						"buffer_size": 9470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1160,
-								1160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -312,7 +218,7 @@
 		"cols":
 		[
 			0.0,
-			0.608776266996,
+			0.907283729683,
 			1.0
 		],
 		"rows":
