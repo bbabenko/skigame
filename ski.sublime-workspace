@@ -56,18 +56,10 @@
 	"buffers":
 	[
 		{
-			"file": "game.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "ski.coffee",
 			"settings":
 			{
-				"buffer_size": 9454,
+				"buffer_size": 9470,
 				"line_ending": "Windows"
 			}
 		},
@@ -108,6 +100,7 @@
 	},
 	"file_history":
 	[
+		"/F/Dropbox/fun/games/skigame/game.html",
 		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -195,50 +188,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "game.html",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 948.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "ski.coffee",
 					"settings":
 					{
-						"buffer_size": 9454,
+						"buffer_size": 9470,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4868,
-								4868
+								1552,
+								1552
 							]
 						],
 						"settings":
@@ -248,7 +214,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2984.0,
+						"translation.y": 684.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -260,7 +226,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "atom.coffee",
 					"settings":
 					{
@@ -288,11 +254,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 0,
 					"file": "ski.coffee",
 					"settings":
 					{
-						"buffer_size": 9454,
+						"buffer_size": 9470,
 						"regions":
 						{
 						},
