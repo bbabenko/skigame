@@ -292,7 +292,7 @@
     source = atom.audioContext.createBufferSource();
     source.buffer = atom.sfx[name];
     source.connect(atom._mixer);
-    source.noteOn(time);
+    source.start(time);
     return source;
   };
 
