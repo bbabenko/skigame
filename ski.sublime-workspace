@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"noise",
+				"y_noise"
+			],
+			[
+				"bat",
+				"batch_size"
+			],
+			[
+				"pool",
+				"pool_size"
+			],
+			[
+				"safe_",
+				"_safe_log"
+			],
+			[
+				"filter",
+				"_filter3D"
+			],
+			[
+				"output",
+				"output_shape"
+			],
+			[
+				"no",
+				"no_improvement_iters"
+			],
+			[
+				"bin",
+				"binarize_labels"
+			],
+			[
+				"num_",
+				"num_params"
+			],
+			[
+				"input_",
+				"input_shape"
+			],
+			[
+				"grad_",
+				"grad_act"
+			],
+			[
+				"in",
+				"input_shape"
+			],
+			[
+				"inpt",
+				"input_act"
+			],
+			[
+				"num",
+				"num_input"
+			],
+			[
+				"ou",
+				"output_shape"
+			],
+			[
 				"is_",
 				"is_off_screen"
 			],
@@ -55,13 +115,86 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/F/Dropbox/code/ufl.py",
+			"settings":
+			{
+				"buffer_size": 3244,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Dropbox/code/ufl_demo.py",
+			"settings":
+			{
+				"buffer_size": 1524,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Dropbox/code/noise.py",
+			"settings":
+			{
+				"buffer_size": 2537,
+				"line_ending": "Windows",
+				"name": "from sklearn.datasets import load_digits"
+			}
+		},
+		{
+			"file": "/F/Dropbox/code/simple_convnet/demo_mnist.py",
+			"settings":
+			{
+				"buffer_size": 2628,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Dropbox/code/simple_convnet/demo_cifar.py",
+			"settings":
+			{
+				"buffer_size": 2717,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Dropbox/code/simple_convnet/simple_convnet/helpers.py",
+			"settings":
+			{
+				"buffer_size": 4242,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 127.0,
 		"selected_items":
 		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"package install",
 				"Package Control: Install Package"
@@ -84,6 +217,42 @@
 	},
 	"file_history":
 	[
+		"/F/Dropbox/code/vm_setup.sh",
+		"/F/Dropbox/code/simple_convnet/simple_convnet/helpers.py",
+		"/F/Dropbox/code/simple_convnet/demo_cifar.py",
+		"/F/Dropbox/code/simple_convnet/simple_convnet/convnet.py",
+		"/F/Dropbox/code/simple_convnet/README.md",
+		"/F/Dropbox/code/convnet/simple_convnet/helpers.py",
+		"/F/Dropbox/code/convnet/simple_convnet/tests/simple_convnet_tests.py",
+		"/F/Dropbox/code/convnet/simple_convnet/__init__.py",
+		"/F/Dropbox/code/convnet/setup.py",
+		"/F/Dropbox/code/simple_convnet/.gitignore",
+		"/F/Dropbox/code/simple_convnet/LICENSE",
+		"/F/Dropbox/code/convnet/demo_mnist.py",
+		"/F/Dropbox/code/convnet/demo_cifar.py",
+		"/F/Dropbox/code/convnet/simple_convnet/simple_convnet.py",
+		"/F/Dropbox/code/convnet/simple_convnet/convnet_tests.py",
+		"/F/Dropbox/code/convnet/simple_convnet/convnet.py",
+		"/F/Dropbox/code/convnet/convnet_tests.py",
+		"/F/Dropbox/code/convnet/convnet.py",
+		"/F/Dropbox/code/convnet/helpers.py",
+		"/F/Dropbox/code/convnet/demo.py",
+		"/F/Dropbox/code/convnet/ufl.py",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Flake8Lint.sublime-settings",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Wrap Plus/Default (Windows).sublime-keymap",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/docstring.sublime-snippet",
+		"/F/Dropbox/code/convnet/convnet/convnet.py",
+		"/D/code/anchovi/anchovi-vision/anchovi/image_utils.py",
+		"/D/code/pdollar-det/channels/private/sse.hpp",
+		"/D/code/pdollar-det/channels/private/gradientMex.cpp",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/F/Dropbox/code/ferns/pose_regressor_demo.py",
+		"/F/Dropbox/code/convnet.py",
+		"/F/Dropbox/website/index.shtml",
 		"/F/Dropbox/fun/games/skigame/ski.coffee",
 		"/F/Dropbox/fun/games/skigame/atom.coffee",
 		"/F/Dropbox/fun/games/skigame/LICENSE",
@@ -93,10 +262,6 @@
 		"/C/Users/boris/Documents/Rita/Web Dev Class/App_Engine/udaciosity/main.py",
 		"/C/Users/boris/Documents/Rita/Web Dev Class/L2_test",
 		"/F/Dropbox/fun/games/skigame/game.html",
-		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/boris/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/F/Dropbox/fun/games/ski/ski.coffee",
 		"/F/Dropbox/fun/games/pong/atom.coffee",
 		"/F/Dropbox/fun/games/pong/pong.coffee",
@@ -119,50 +284,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"GradientBoostingClassifier",
+			"SVC",
+			"num_splits",
+			"check_random_state",
+			"std",
+			"img",
+			"data",
+			"self.zca_",
+			"self.sigma_",
+			"self.mu_",
+			"data",
+			"split_per_layer",
+			"',",
+			"convnet",
+			"cn",
+			"width_pad",
+			"filter3D",
+			"num_filters",
+			"_choice",
+			"_safe_log",
+			"_safe_exp",
+			"_atleast",
+			"_padarray",
+			"_filter3D",
+			"_filter2D",
+			"forward_final",
+			"val_acts",
+			"_forward",
+			"np.random",
+			"_filter3D",
+			"acts",
+			"vel_",
+			"100",
+			"grad_act",
+			"print ",
+			"print",
+			"cost_grad",
+			"loss function",
+			"_forward",
+			"sigma_y",
+			"sigma_x",
+			"RandomState",
+			"rand_state",
+			"random_state",
+			"chill_out_iters",
+			"random_state",
+			"rand_state",
+			"np.ran",
+			"np.random",
+			"np.random.ra",
+			"grad_input_act",
+			"start_t",
+			"30000",
+			"tmp",
+			"r_start",
+			"np.zer",
+			"update_params",
+			"x",
+			"train",
+			"ConvBiasLayer",
+			"512",
+			"1000",
+			"test",
+			"permu",
+			"randn",
+			"x_val",
+			"y_test",
+			"y_train",
+			"x_test",
+			"x_train",
+			"y_val",
+			"x_val",
+			"new_velocity",
+			"iter",
+			"None",
+			"max_iter",
+			"pickle",
+			"x_train",
+			"get_param_grad",
+			"get_cost_grad",
+			"net = cn.SoftmaxNet(layer_args=layer_args, input_shape=(10,))\n\n    x = np.random.randn(100,10)/100\n    y = np.random.randn(100) > 0\n    by = net.binarize_labels(y)\n\n    g1 = approx_fprime(net.get_params(), net.cost_for_params, 10e-6, x, by)\n    g2 = net.get_param_grad(x, by)\n    assert np.mean(np.abs(g1-g2)) < 10e-4, 'incorrect gradient!'",
+			"(grad_act.shape[2]/2)",
+			"(grad_act.shape[1]/2)",
+			"np.log",
+			"np.exp",
+			"get_param_grad_for_params",
+			"inputs",
+			"good_inputs",
+			"input1",
+			"11",
+			"25",
+			"11",
+			"filters",
+			"input_arr",
+			"_multi_filter2D",
+			"11",
+			"padded_grad_act_",
+			"_multi_filter2D",
+			"_atleast",
+			"many",
+			"_padarray",
+			"print",
+			"get_cost_grad",
+			"binary_y",
+			"layer_params",
+			"output_dim",
+			"input",
+			"input_ndim",
+			"input_act",
+			"np.all(np.array(",
+			"2",
+			"downscale_local_mean",
+			"pass",
+			"[0]",
+			"input_act",
+			"[:3]",
+			"_filter(",
+			"_filter",
+			"self.filters",
+			"incorrect",
+			"char",
+			"input",
+			"delete_line",
 			"up",
 			"points",
 			"preload",
 			"hide()",
-			"message",
-			"start_game",
-			"selec",
-			"highli",
-			"high",
-			"message",
-			"tab",
-			"end",
-			"tab",
-			"console.",
-			"left",
-			"screen",
-			"level_t",
-			"resize",
-			"levels",
-			"cur_",
-			"    # @cur_level = 0\n    # @level_times = [10, 20, 30, 40]\n    # @levels =\n    #   0:\n    #     speed: 1\n    #     obs_freq: 1\n    #   1:\n    #     speed: 2\n    #     obs_freq: 2\n    #   2:\n    #     speed: 3\n    #     obs_freq: 3\n    #   3:\n    #     speed: 4\n    #     obs_freq: 4\n    #   4:\n    #     speed: 5\n    #     obs_req: 5",
-			"OBS_FREQ",
-			"@w",
-			"100",
-			"400",
-			"200",
-			"dx",
-			"console.log",
-			"console.lo",
-			"CONE_SPEED",
-			"dt",
-			"@_calc_y",
-			"@_calc_x",
-			" @",
-			"fold",
-			"x",
-			"ballLoc",
-			"02",
-			"height",
-			"atom.canvas",
-			"alt+shift",
-			"col",
-			"colum",
-			"layout"
+			"message"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -180,13 +429,179 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 0,
+					"file": "/F/Dropbox/code/ufl.py",
+					"settings":
+					{
+						"buffer_size": 3244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1773,
+								1540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/F/Dropbox/code/ufl_demo.py",
+					"settings":
+					{
+						"buffer_size": 1524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1273,
+								1273
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/F/Dropbox/code/noise.py",
+					"settings":
+					{
+						"buffer_size": 2537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1813,
+								1813
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from sklearn.datasets import load_digits",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/F/Dropbox/code/simple_convnet/demo_mnist.py",
+					"settings":
+					{
+						"buffer_size": 2628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/F/Dropbox/code/simple_convnet/demo_cifar.py",
+					"settings":
+					{
+						"buffer_size": 2717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/F/Dropbox/code/simple_convnet/simple_convnet/helpers.py",
+					"settings":
+					{
+						"buffer_size": 4242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -207,18 +622,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.907283729683,
 			1.0
 		],
 		"rows":
@@ -243,6 +651,10 @@
 		"selected_items":
 		[
 			[
+				"conv",
+				"/F/Dropbox/code/convnet/convnet_tests.py"
+			],
+			[
 				"ski",
 				"ski.coffee"
 			]
@@ -257,7 +669,7 @@
 		],
 		"width": 0.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,

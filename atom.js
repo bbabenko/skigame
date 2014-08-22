@@ -224,7 +224,7 @@
 
   atom.audioContext = typeof webkitAudioContext === "function" ? new webkitAudioContext() : void 0;
 
-  atom._mixer = (_ref = atom.audioContext) != null ? _ref.createGainNode() : void 0;
+  atom._mixer = (_ref = atom.audioContext) != null ? _ref.createGain() : void 0;
 
   if ((_ref1 = atom._mixer) != null) {
     _ref1.connect(atom.audioContext.destination);
